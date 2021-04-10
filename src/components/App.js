@@ -1,8 +1,15 @@
 import React, { Component } from "react";
+import CreateProblem from "./createProblem";
+import ProblemList from "./problemList";
 
 class App extends Component {
   render() {
-    return <div>Hello</div>;
+    return (
+      <>
+        <ProblemList />
+        <CreateProblem />
+      </>
+    );
   }
 }
 
